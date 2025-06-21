@@ -1,5 +1,7 @@
+import random 
+
+
 def game_func():
-    import random 
 
     guess_name = random.randint(0, 100)
     print(guess_name)
